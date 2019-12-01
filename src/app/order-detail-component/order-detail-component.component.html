@@ -1,0 +1,12 @@
+<mat-card>
+    <h3>Final Cart</h3>
+    <div *ngFor="let item of items">
+        {{item.name}}
+        <div>
+            {{item.qty}} X {{item.price}}
+        </div>
+        <hr>
+    </div>
+    
+    Total Amount : <strong>{{cartTotal}}</strong>
+</mat-card>

@@ -1,0 +1,15 @@
+.full-width {
+    width: 100%;
+
+    * {
+        float: left;
+        width: 100%;
+    }
+    .width80 {
+        width: 70%;
+    }
+    
+    .width20 {
+        width: 30%;
+    }
+}
